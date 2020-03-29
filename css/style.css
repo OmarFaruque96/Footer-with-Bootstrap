@@ -1,0 +1,104 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+a:hover{
+	text-decoration: none;
+}
+/****************************
+	footer section css 
+*****************************/
+
+footer{
+	background: #000000;
+	padding-top: 40px;
+}
+footer h6{
+	font-size: 1.25rem;
+    color: orange;
+    font-weight: 500;
+}
+footer p{
+	color: white;
+}
+footer ul{
+	list-style: none;
+}
+footer ul li{
+	padding: 3px 0px;
+}
+footer ul li a{
+	color: white;
+}
+footer ul li a:hover{
+	color: orange;
+	transition: 0.5s ease-in-out;
+}
+
+.footer-one-three i{
+	color: orange;
+	margin-right: 20px;
+}
+.footer-logo p, .footer-one-two p, .footer-one-three a{
+	font-size: 14px;
+}
+
+/*footer subscription form css*/
+.form-control{
+	border: black;
+}
+.input-group-text{
+	background: white;
+	border: none;
+}
+
+/* subscribe button css*/
+.btn-primary{
+	color: white;
+    background: orange !important;
+    border-color: orange !important;
+}
+
+/* devider line*/
+.line{
+	height: 1px;
+	width: 100%;
+	background: white;
+}
+/*footer icon section css*/
+.footer-icon{
+	width: 100%;
+	margin-top: 20px;
+}
+.footer-icon ul{
+	text-align: center;
+}
+.footer-icon ul li{
+	display: inline-block;
+	margin: 0 10px;
+}
+.footer-icon ul li a{
+
+}
+.footer-icon ul li a i{
+	font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border: 1px solid orange;
+    line-height: 34px;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-icon ul li a i:hover{
+	transition: 0.5s;
+	transform: scale(1.5);
+	color: grey;
+}
+
+.input-group>.form-control:focus {
+    z-index: 3;
+    box-shadow: none !important;
+}
